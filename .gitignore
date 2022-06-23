@@ -1,0 +1,52 @@
+#### IAR Debugger files
+# *.ewd
+
+#### IAR Workspace files
+*.eww
+
+#### Dependency information
+*.dep
+
+####  Destination directory for the object files from the compiler and assembler
+# Source browse information
+**/Obj/*.pbd
+**/Obj/*.pbd.*
+**/Obj/*.pbi
+**/Obj/*.pbi.*
+**/Obj/*.pbw
+# Object files
+**/Obj/*.o
+#
+**/Obj/*.xcl
+# Ninja build system files
+**/Obj/.ninja_deps
+**/Obj/.ninja_log
+**/Obj/*.ninja
+
+#### IAR Local Settings
+# C-RUN filter settings 
+**/settings/*.crun            
+# Debugger desktop settings 
+**/settings/*.dbgdt
+# Debugger debugger initialization information 
+**/settings/*.dnx
+# C-SPY files created every time it is invoked
+**/settings/*.cspy
+**/settings/*.cspy.*
+**/settings/*.xcl
+**/settings/*.dni
+**/settings/*.dnx
+# Workspace desktop settings
+**/settings/*.wsdt
+# Main IDE window placement information
+**/settings/*.wspos
+# User-defined register group configuratio
+**/settings/*.reggroups
+
+#### Build artifacts
+**/Exe/*.bin
+**/Exe/*.elf
+**/Exe/*.hex
+**/Exe/*.out
+**/Exe/*.sim
+**/List/*.map
